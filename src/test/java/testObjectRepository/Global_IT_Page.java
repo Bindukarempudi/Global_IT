@@ -35,7 +35,7 @@ public class Global_IT_Page {
     
     //Locating all the needed elements for scenario
     
-	@FindBy(xpath="//div[@class='e_a_37591358 q_a_37591358']//div[@data-automation-id='HeroTitle']")
+	@FindBy(xpath="//div[@data-automation-id='Tiles']//div[@data-automation-id='HeroTitle']")
 	public List<WebElement> apps;
 	
 	@FindBy(xpath="//*[text()='IT News']")
